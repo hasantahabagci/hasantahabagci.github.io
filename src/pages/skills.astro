@@ -1,0 +1,172 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+const skillCategories = [
+  {
+    category: "Programming Languages",
+    skills: [
+      { name: "JavaScript/TypeScript", level: 95 },
+      { name: "Python", level: 90 },
+      { name: "Go", level: 80 },
+      { name: "Java", level: 75 },
+    ]
+  },
+  {
+    category: "Frontend Development",
+    skills: [
+      { name: "React/Next.js", level: 95 },
+      { name: "Vue.js", level: 85 },
+      { name: "Tailwind CSS", level: 90 },
+      { name: "Astro", level: 85 },
+    ]
+  },
+  {
+    category: "Backend Development",
+    skills: [
+      { name: "Node.js/Express", level: 90 },
+      { name: "Django/Flask", level: 85 },
+      { name: "REST APIs", level: 95 },
+      { name: "GraphQL", level: 80 },
+    ]
+  },
+  {
+    category: "DevOps & Cloud",
+    skills: [
+      { name: "Docker/Kubernetes", level: 85 },
+      { name: "AWS", level: 80 },
+      { name: "CI/CD", level: 90 },
+      { name: "Linux", level: 85 },
+    ]
+  },
+  {
+    category: "Databases",
+    skills: [
+      { name: "PostgreSQL", level: 85 },
+      { name: "MongoDB", level: 90 },
+      { name: "Redis", level: 80 },
+      { name: "MySQL", level: 85 },
+    ]
+  },
+  {
+    category: "Tools & Technologies",
+    skills: [
+      { name: "Git/GitHub", level: 95 },
+      { name: "VS Code", level: 95 },
+      { name: "Postman", level: 90 },
+      { name: "Figma", level: 75 },
+    ]
+  },
+];
+---
+
+<MainLayout 
+  title="Skills - Hasan Tahaba Bagci"
+  description="Technical skills and expertise of Hasan Tahaba Bagci"
+>
+  <div class="bg-white dark:bg-gray-900">
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-primary-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-4 mb-4">
+          <svg class="w-12 h-12 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+          </svg>
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100">
+            Skills & Expertise
+          </h1>
+        </div>
+        <p class="text-xl text-gray-600 dark:text-gray-400">
+          Technical skills and tools I work with
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Sections -->
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {skillCategories.map((category) => (
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
+              <h2 class="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100 flex items-center gap-3">
+                <span class="w-2 h-8 bg-primary-500 rounded"></span>
+                {category.category}
+              </h2>
+              
+              <div class="space-y-6">
+                {category.skills.map((skill) => (
+                  <div>
+                    <div class="flex justify-between mb-2">
+                      <span class="text-gray-700 dark:text-gray-300 font-medium">
+                        {skill.name}
+                      </span>
+                      <span class="text-gray-600 dark:text-gray-400 text-sm">
+                        {skill.level}%
+                      </span>
+                    </div>
+                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                      <div 
+                        class="bg-gradient-to-r from-primary-500 to-primary-600 h-2.5 rounded-full transition-all duration-1000"
+                        style={`width: ${skill.level}%`}
+                      ></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional Skills -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-12 text-center text-gray-900 dark:text-gray-100">
+          Additional Competencies
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-white dark:bg-gray-900 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+            <div class="w-16 h-16 mx-auto bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mb-4">
+              <svg class="w-8 h-8 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-lg mb-2 text-gray-900 dark:text-gray-100">Team Collaboration</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Agile, Scrum, Remote Work</p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-900 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+            <div class="w-16 h-16 mx-auto bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mb-4">
+              <svg class="w-8 h-8 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-lg mb-2 text-gray-900 dark:text-gray-100">Problem Solving</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Analytical Thinking, Debugging</p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-900 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+            <div class="w-16 h-16 mx-auto bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mb-4">
+              <svg class="w-8 h-8 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-lg mb-2 text-gray-900 dark:text-gray-100">Communication</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Technical Writing, Presentations</p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-900 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+            <div class="w-16 h-16 mx-auto bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mb-4">
+              <svg class="w-8 h-8 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-lg mb-2 text-gray-900 dark:text-gray-100">Quick Learner</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Adaptable, Continuous Learning</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</MainLayout>

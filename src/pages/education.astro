@@ -1,0 +1,126 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Timeline from '../components/Timeline.astro';
+
+const education = [
+  {
+    title: "Master of Science in Computer Science",
+    organization: "University Name",
+    date: "2020 - 2022",
+    location: "City, Country",
+    description: "Specialized in Software Engineering and Artificial Intelligence. Focused on research in machine learning and distributed systems.",
+    achievements: [
+      "GPA: 3.9/4.0",
+      "Thesis: 'Advanced Machine Learning Techniques for Distributed Systems'",
+      "Published 2 research papers in top-tier conferences",
+      "Teaching Assistant for Advanced Algorithms course"
+    ]
+  },
+  {
+    title: "Bachelor of Science in Computer Science",
+    organization: "University Name",
+    date: "2016 - 2020",
+    location: "City, Country",
+    description: "Comprehensive study of computer science fundamentals including algorithms, data structures, software engineering, and computer architecture.",
+    achievements: [
+      "GPA: 3.8/4.0",
+      "Dean's List all semesters",
+      "Led student programming club with 50+ members",
+      "Won first place in university hackathon 2019"
+    ]
+  },
+];
+---
+
+<MainLayout 
+  title="Education - Hasan Tahaba Bagci"
+  description="Academic background and educational qualifications of Hasan Tahaba Bagci"
+>
+  <div class="bg-white dark:bg-gray-900">
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-primary-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-4 mb-4">
+          <svg class="w-12 h-12 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+          </svg>
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100">
+            Education
+          </h1>
+        </div>
+        <p class="text-xl text-gray-600 dark:text-gray-400">
+          My academic journey and educational background
+        </p>
+      </div>
+    </section>
+
+    <!-- Education Timeline -->
+    <section class="py-16">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Timeline items={education} />
+      </div>
+    </section>
+
+    <!-- Certifications & Additional Learning -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-12 text-center text-gray-900 dark:text-gray-100">
+          Certifications & Additional Learning
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center mb-4">
+              <svg class="w-6 h-6 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
+              Cloud Architecture Certificate
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">
+              Platform Provider • 2023
+            </p>
+            <p class="text-gray-700 dark:text-gray-300">
+              Advanced certification in cloud infrastructure design and implementation
+            </p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center mb-4">
+              <svg class="w-6 h-6 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
+              Machine Learning Specialization
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">
+              Online Platform • 2022
+            </p>
+            <p class="text-gray-700 dark:text-gray-300">
+              Comprehensive ML specialization covering supervised and unsupervised learning
+            </p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center mb-4">
+              <svg class="w-6 h-6 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
+              Full-Stack Web Development
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">
+              Bootcamp • 2021
+            </p>
+            <p class="text-gray-700 dark:text-gray-300">
+              Intensive program covering modern web technologies and best practices
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</MainLayout>

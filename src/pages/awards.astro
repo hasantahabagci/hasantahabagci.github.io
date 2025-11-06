@@ -1,0 +1,144 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+const awards = [
+  {
+    title: "Best Paper Award",
+    subtitle: "International Conference on Machine Learning",
+    description: "Recognized for outstanding research contribution in machine learning and distributed systems.",
+    tags: ["2023", "Research"],
+  },
+  {
+    title: "Innovation Excellence Award",
+    subtitle: "Tech Company Inc.",
+    description: "Awarded for developing innovative solutions that significantly improved system performance and user experience.",
+    tags: ["2022", "Professional"],
+  },
+  {
+    title: "Hackathon Winner",
+    subtitle: "National Tech Hackathon",
+    description: "First place in a competitive hackathon with 100+ participating teams for developing an AI-powered solution.",
+    tags: ["2021", "Competition"],
+  },
+  {
+    title: "Outstanding Graduate Student",
+    subtitle: "University Name",
+    description: "Honored for academic excellence, research contributions, and leadership in the computer science department.",
+    tags: ["2022", "Academic"],
+  },
+  {
+    title: "Open Source Contributor",
+    subtitle: "GitHub Community",
+    description: "Recognized for significant contributions to major open-source projects with 1000+ stars combined.",
+    tags: ["2021", "Community"],
+  },
+  {
+    title: "Dean's List",
+    subtitle: "University Name",
+    description: "Consistently maintained high academic standing throughout undergraduate studies.",
+    tags: ["2016-2020", "Academic"],
+  },
+];
+---
+
+<MainLayout 
+  title="Awards - Hasan Tahaba Bagci"
+  description="Awards and recognitions received by Hasan Tahaba Bagci"
+>
+  <div class="bg-white dark:bg-gray-900">
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-primary-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-4 mb-4">
+          <svg class="w-12 h-12 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+          </svg>
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100">
+            Awards & Recognition
+          </h1>
+        </div>
+        <p class="text-xl text-gray-600 dark:text-gray-400">
+          Honors and achievements throughout my career
+        </p>
+      </div>
+    </section>
+
+    <!-- Awards Grid -->
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {awards.map((award) => (
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden h-full flex flex-col">
+              <div class="p-6 flex-grow flex flex-col">
+                <div class="w-16 h-16 mx-auto bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                  <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                </div>
+                
+                <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100 text-center">
+                  {award.title}
+                </h3>
+                
+                <p class="text-sm text-primary-600 dark:text-primary-400 mb-3 text-center font-medium">
+                  {award.subtitle}
+                </p>
+                
+                <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow text-center">
+                  {award.description}
+                </p>
+                
+                <div class="flex flex-wrap gap-2 justify-center mt-auto">
+                  {award.tags.map((tag) => (
+                    <span class="px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300 text-xs rounded-full">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-12 text-center text-gray-900 dark:text-gray-100">
+          Achievements in Numbers
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div class="text-center">
+            <div class="text-4xl md:text-5xl font-bold text-primary-600 dark:text-primary-400 mb-2">
+              6+
+            </div>
+            <p class="text-gray-600 dark:text-gray-400">Awards Received</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="text-4xl md:text-5xl font-bold text-primary-600 dark:text-primary-400 mb-2">
+              3
+            </div>
+            <p class="text-gray-600 dark:text-gray-400">Publications</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="text-4xl md:text-5xl font-bold text-primary-600 dark:text-primary-400 mb-2">
+              10+
+            </div>
+            <p class="text-gray-600 dark:text-gray-400">Projects Completed</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="text-4xl md:text-5xl font-bold text-primary-600 dark:text-primary-400 mb-2">
+              5+
+            </div>
+            <p class="text-gray-600 dark:text-gray-400">Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</MainLayout>
