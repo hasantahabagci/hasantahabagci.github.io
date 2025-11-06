@@ -1,0 +1,292 @@
+{
+  "name": "Hasan Taha Bagci",
+  "location": "Istanbul, Turkey",
+  "email": "bagcih21@itu.edu.tr",
+  "phone": "+90 532 669 4383",
+  "links": {
+    "github": "https://github.com/hasantahabagci",
+    "linkedin": "https://linkedin.com/in/hasantahabagci",
+    "scholar": "https://scholar.google.com/citations?user=bHNPQtgAAAAJ"
+  },
+  "tagline": "RL, UAVs & vision—building reliable autonomy.",
+  "researchInterests": [
+    {
+      "area": "Reinforcement Learning & Decision Making",
+      "topics": "Policy optimization, multi-agent systems, UAV navigation, command & control architectures"
+    },
+    {
+      "area": "Computer Vision",
+      "topics": "Detection, tracking, aerial imagery, vision-based navigation, segmentation, deep learning"
+    },
+    {
+      "area": "Robotics & UAVs",
+      "topics": "Control systems, autonomous surveillance, system integration, adaptive control"
+    }
+  ],
+  "achievements": [
+    {
+      "year": "2025",
+      "result": "Best of Session",
+      "event": "ICNS Conference, Brussels"
+    },
+    {
+      "year": "2024",
+      "result": "World 2nd Place",
+      "event": "Robonation SUAS, Maryland"
+    },
+    {
+      "year": "2024",
+      "result": "Best in Design",
+      "event": "TEKNOFEST Dog-Fighting UAV"
+    },
+    {
+      "year": "2024",
+      "result": "3rd Place",
+      "event": "TEKNOFEST Dog-Fighting UAV"
+    },
+    {
+      "year": "2023",
+      "result": "World 1st Place",
+      "event": "Robonation SUAS, Maryland"
+    },
+    {
+      "year": "2023",
+      "result": "2nd Place",
+      "event": "TEKNOFEST International UAV"
+    },
+    {
+      "year": "2022",
+      "result": "Bronze Performance",
+      "event": "TEKNOFEST Free Duty UAV"
+    },
+    {
+      "year": "2021",
+      "result": "Rank 2831",
+      "event": "YKS National Exam, Turkey"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Visiting Researcher",
+      "organization": "Boston University Robotics Lab, Boston, USA",
+      "duration": "Aug 2025 – Present",
+      "description": "Reinforcement learning, imitation learning, and visual navigation research under the supervision of Prof. John Baillieul."
+    },
+    {
+      "role": "Visiting Researcher",
+      "organization": "MIT McGovern / Senseable Intelligence Group",
+      "duration": "May 2025 – Present",
+      "description": "Interactive LLM-driven avatars with real-time speech, gesture, and lip-sync capabilities."
+    },
+    {
+      "role": "Undergraduate Researcher",
+      "organization": "ITU Aerospace Research Center",
+      "duration": "Sep 2024 – Present",
+      "description": "AI and Guidance, Navigation & Control (GNC) research group."
+    },
+    {
+      "role": "Intern",
+      "organization": "BAYKAR Technologies",
+      "duration": "Oct 2024 – Dec 2024",
+      "description": "AI & software development department."
+    },
+    {
+      "role": "Team Leader",
+      "organization": "ITUNOMUAV",
+      "duration": "Jul 2023 – Sep 2024",
+      "description": "Led 24-person team to SUAS podium and multiple TEKNOFEST results."
+    },
+    {
+      "role": "Software Subteam Member",
+      "organization": "ITUNOMUAV",
+      "duration": "2022 – 2023",
+      "description": "Computer vision and autonomous systems development."
+    },
+    {
+      "role": "Intern",
+      "organization": "TÜBİTAK",
+      "duration": "2022",
+      "description": "Research and development internship."
+    },
+    {
+      "role": "Intern",
+      "organization": "Vefa Aerospace",
+      "duration": "2022",
+      "description": "UAV systems and aerospace engineering."
+    },
+    {
+      "role": "Co-founder & Designer",
+      "organization": "Kampuslu",
+      "duration": "2021 – 2022",
+      "description": "Campus community platform design and development."
+    },
+    {
+      "role": "Intern",
+      "organization": "TRT World",
+      "duration": "2019",
+      "description": "Media production and broadcasting."
+    },
+    {
+      "role": "Instructor & Team Leader",
+      "organization": "TeknoKaihl",
+      "duration": "2018 – 2019",
+      "description": "Technology education and robotics instruction."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Time-to-Transit Visual Navigation with IL Controller",
+      "duration": "Aug 2025 – Present",
+      "description": "Imitation learning-based controller for visual navigation using time-to-transit metrics.",
+      "tags": ["RL", "Vision", "UAV", "Control"]
+    },
+    {
+      "title": "AI-based Command & Control System",
+      "duration": "Sep 2025 – Present",
+      "description": "Intelligent C2 system for multi-agent coordination.",
+      "tags": ["RL", "Multi-Agent", "C2"]
+    },
+    {
+      "title": "Drone Interceptor",
+      "duration": "Dec 2024 – Present",
+      "description": "Onboard detection and tracking with sim-to-field pipeline using ROS/Gazebo.",
+      "tags": ["CV", "UAV", "ROS", "Detection"]
+    },
+    {
+      "title": "Toothless Fixed-Wing UAV",
+      "duration": "Jun 2024",
+      "description": "TEKNOFEST competition fixed-wing UAV design and development.",
+      "tags": ["UAV", "Competition"]
+    },
+    {
+      "title": "Lightning Cargo Drone",
+      "duration": "Jun 2023",
+      "description": "SUAS competition cargo delivery drone system.",
+      "tags": ["UAV", "Competition"]
+    },
+    {
+      "title": "SignSense",
+      "duration": "Jan 2024",
+      "description": "Deep learning-based sign language translation system.",
+      "tags": ["CV", "DL", "NLP"]
+    },
+    {
+      "title": "Turkish Diacritization with BiLSTM",
+      "duration": "Jun 2024",
+      "description": "Bidirectional LSTM model for Turkish text diacritization.",
+      "tags": ["NLP", "DL"]
+    },
+    {
+      "title": "Image Deblurring for Classification Boost",
+      "duration": "May 2024",
+      "description": "Deblurring preprocessing to improve classification accuracy.",
+      "tags": ["CV", "DL"]
+    },
+    {
+      "title": "Database Management System",
+      "duration": "Dec 2023 – Feb 2024",
+      "description": "Custom DBMS implementation with query optimization.",
+      "tags": ["Database", "Backend"]
+    },
+    {
+      "title": "Credit Card Approval Prediction",
+      "duration": "Jan 2024",
+      "description": "Machine learning model for credit approval classification.",
+      "tags": ["ML"]
+    },
+    {
+      "title": "Interfaced AI Training App",
+      "duration": "Jan 2023",
+      "description": "Educational platform for AI training and experimentation.",
+      "tags": ["AI", "Education"]
+    },
+    {
+      "title": "See-It Visualizer",
+      "duration": "Apr 2022",
+      "description": "Data visualization tool for complex datasets.",
+      "tags": ["Visualization"]
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Abdülbaki Şanlan, Hasan Taha Bağcı, Emre Koyuncu",
+      "title": "Particle Filter-Based Localization Using Visual Feature Synchronization in GNSS-Denied Navigation",
+      "venue": "ICNS 2025",
+      "year": "2025",
+      "pages": "1–8",
+      "doi": "https://doi.org/10.1109/ICNS65417.2025.10976891"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc., Artificial Intelligence & Data Engineering",
+      "institution": "Istanbul Technical University",
+      "duration": "2021 – Present (4th year)",
+      "note": "Top 1% high-school placement (YKS rank 2831, Turkey); English prep year completed"
+    }
+  ],
+  "skills": {
+    "programming": [
+      "Python",
+      "Pandas",
+      "Gym",
+      "OpenCV",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy",
+      "scikit-learn",
+      "C/C++",
+      "HTML/CSS",
+      "SQL",
+      "JavaScript",
+      "Node.js"
+    ],
+    "tools": [
+      "Git",
+      "Linux",
+      "ROS/ROS2",
+      "Shell",
+      "LaTeX",
+      "Tableau",
+      "Power BI",
+      "MS Office"
+    ],
+    "social": [
+      "Leadership",
+      "Teamwork",
+      "Reporting",
+      "Project Management"
+    ]
+  },
+  "teaching": [
+    "T3 Foundation Mentor (2022–2024)",
+    "Intro to Python Instructor (2022–2023)",
+    "Intro to AI Instructor (2022–2023)",
+    "Science Travellers Organizer (2017–2019)",
+    "Earthquake Volunteer (Feb 2023)"
+  ],
+  "certificates": [
+    "SUAS 2023–2024 Participant",
+    "Machine Learning Summer Camp (Miuul, 2022)",
+    "Image Processing with Python (Udemy, 2022)",
+    "UAV Pilot Certificate (SHGM, 2022)",
+    "English Summer School (IUS, 2018)",
+    "Production Techniques & VFX/Compositing (Media Academy, 2018–2019)",
+    "IAC Participant (2023)"
+  ],
+  "languages": [
+    {
+      "language": "Turkish",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "B2+ Professional"
+    },
+    {
+      "language": "Arabic",
+      "level": "Basic"
+    }
+  ]
+}
+
