@@ -18,6 +18,7 @@ async function init() {
 function renderAllSections() {
   if (!cvData) return;
   
+  renderAbout();
   renderAchievements();
   renderExperience();
   renderProjects();
@@ -26,6 +27,14 @@ function renderAllSections() {
   renderTeaching();
   renderCertificates();
   renderLanguages();
+}
+
+// About
+function renderAbout() {
+  const aboutText = document.getElementById('about-text');
+  if (aboutText && cvData.about) {
+    aboutText.textContent = cvData.about;
+  }
 }
 
 // Achievements

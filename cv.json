@@ -9,6 +9,7 @@
     "scholar": "https://scholar.google.com/citations?user=bHNPQtgAAAAJ"
   },
   "tagline": "RL, UAVs & vision—building reliable autonomy.",
+  "about": "I am a fourth-year AI & Data Engineering student at Istanbul Technical University, currently conducting research at ITU Aerospace Research Center. My work focuses on developing intelligent autonomous systems through reinforcement learning, computer vision, and robotics. I have led award-winning UAV teams to world championships and published research on vision-based navigation in GNSS-denied environments.",
   "researchInterests": [
     {
       "area": "Reinforcement Learning & Decision Making",
@@ -16,11 +17,11 @@
     },
     {
       "area": "Computer Vision",
-      "topics": "Detection, tracking, aerial imagery, vision-based navigation, segmentation, deep learning"
+      "topics": "Object detection, tracking, aerial imagery analysis, vision-based navigation, semantic segmentation, deep learning"
     },
     {
       "area": "Robotics & UAVs",
-      "topics": "Control systems, autonomous surveillance, system integration, adaptive control"
+      "topics": "Control systems, autonomous surveillance, system integration, adaptive control, GNC systems"
     }
   ],
   "achievements": [

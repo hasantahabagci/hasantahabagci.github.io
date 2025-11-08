@@ -372,6 +372,23 @@ a:focus-visible {
   box-shadow: 0 8px 16px var(--shadow);
 }
 
+/* ===== About Text ===== */
+.about-text {
+  font-size: 1.125rem;
+  line-height: var(--line-height-loose);
+  color: var(--text);
+  margin-bottom: calc(var(--spacing-unit) * 5);
+  max-width: 900px;
+}
+
+.subsection-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: calc(var(--spacing-unit) * 3);
+  margin-top: calc(var(--spacing-unit) * 2);
+}
+
 /* ===== Interests Grid ===== */
 .interests-grid {
   display: grid;
