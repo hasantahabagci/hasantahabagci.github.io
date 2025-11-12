@@ -68,52 +68,34 @@
   ],
   "experience": [
     {
-      "role": "Visiting Researcher",
-      "organization": "Boston University Robotics Lab, Boston, USA",
-      "duration": "Aug 2025 – Present",
-      "description": "Reinforcement learning, imitation learning, and visual navigation research under the supervision of Prof. John Baillieul."
-    },
-    {
-      "role": "Visiting Researcher",
-      "organization": "MIT McGovern / Senseable Intelligence Group",
-      "duration": "May 2025 – Present",
-      "description": "Interactive LLM-driven avatars with real-time speech, gesture, and lip-sync capabilities."
-    },
-    {
       "role": "Undergraduate Researcher",
       "organization": "ITU Aerospace Research Center",
       "duration": "Sep 2024 – Present",
-      "description": "AI and Guidance, Navigation & Control (GNC) research group."
-    },
-    {
-      "role": "Intern",
-      "organization": "BAYKAR Technologies",
-      "duration": "Oct 2024 – Dec 2024",
-      "description": "AI & software development department."
+      "description": "AI and Guidance, Navigation & Control (GNC) research group. Developing reinforcement learning algorithms for UAV navigation and autonomous decision-making systems."
     },
     {
       "role": "Team Leader",
       "organization": "ITUNOMUAV",
       "duration": "Jul 2023 – Sep 2024",
-      "description": "Led 24-person team to SUAS podium and multiple TEKNOFEST results."
+      "description": "Led 24-person team to world championship (1st place 2023, 2nd place 2024) at SUAS competition and multiple TEKNOFEST podium finishes."
     },
     {
       "role": "Software Subteam Member",
       "organization": "ITUNOMUAV",
-      "duration": "2022 – 2023",
-      "description": "Computer vision and autonomous systems development."
+      "duration": "Sep 2022 – Jun 2023",
+      "description": "Computer vision and autonomous systems development. Implemented detection and tracking algorithms for aerial platforms."
     },
     {
       "role": "Intern",
       "organization": "TÜBİTAK",
-      "duration": "2022",
-      "description": "Research and development internship."
+      "duration": "Summer 2022",
+      "description": "Research and development internship in applied AI and robotics."
     },
     {
       "role": "Intern",
       "organization": "Vefa Aerospace",
-      "duration": "2022",
-      "description": "UAV systems and aerospace engineering."
+      "duration": "Summer 2022",
+      "description": "UAV systems and aerospace engineering projects."
     },
     {
       "role": "Co-founder & Designer",
@@ -124,51 +106,51 @@
     {
       "role": "Intern",
       "organization": "TRT World",
-      "duration": "2019",
+      "duration": "Summer 2019",
       "description": "Media production and broadcasting."
     },
     {
       "role": "Instructor & Team Leader",
       "organization": "TeknoKaihl",
       "duration": "2018 – 2019",
-      "description": "Technology education and robotics instruction."
+      "description": "Technology education and robotics instruction for high school students."
     }
   ],
   "projects": [
     {
-      "title": "Time-to-Transit Visual Navigation with IL Controller",
-      "duration": "Aug 2025 – Present",
-      "description": "Imitation learning-based controller for visual navigation using time-to-transit metrics.",
-      "tags": ["RL", "Vision", "UAV", "Control"]
-    },
-    {
       "title": "AI-based Command & Control System",
-      "duration": "Sep 2025 – Present",
-      "description": "Intelligent C2 system for multi-agent coordination.",
-      "tags": ["RL", "Multi-Agent", "C2"]
+      "duration": "Sep 2024 – Present",
+      "description": "Multi-agent reinforcement learning system for coordinated UAV operations and autonomous decision-making.",
+      "tags": ["RL", "Multi-Agent", "C2", "UAV"]
     },
     {
-      "title": "Drone Interceptor",
+      "title": "Drone Interceptor System",
       "duration": "Dec 2024 – Present",
-      "description": "Onboard detection and tracking with sim-to-field pipeline using ROS/Gazebo.",
+      "description": "Real-time onboard detection and tracking system with sim-to-field transfer pipeline using ROS/Gazebo.",
       "tags": ["CV", "UAV", "ROS", "Detection"]
+    },
+    {
+      "title": "Vision-Based Navigation in GNSS-Denied Environments",
+      "duration": "2024",
+      "description": "Particle filter-based localization using visual feature synchronization. Published at ICNS 2025.",
+      "tags": ["Vision", "Navigation", "UAV"]
     },
     {
       "title": "Toothless Fixed-Wing UAV",
       "duration": "Jun 2024",
-      "description": "TEKNOFEST competition fixed-wing UAV design and development.",
-      "tags": ["UAV", "Competition"]
+      "description": "TEKNOFEST competition fixed-wing UAV design and development. Best in Design & 3rd Place.",
+      "tags": ["UAV", "Competition", "GNC"]
     },
     {
       "title": "Lightning Cargo Drone",
-      "duration": "Jun 2023",
-      "description": "SUAS competition cargo delivery drone system.",
-      "tags": ["UAV", "Competition"]
+      "duration": "Jun 2023 – Jun 2024",
+      "description": "SUAS competition cargo delivery drone system. World 1st (2023) and 2nd (2024) place.",
+      "tags": ["UAV", "Competition", "CV"]
     },
     {
       "title": "SignSense",
       "duration": "Jan 2024",
-      "description": "Deep learning-based sign language translation system.",
+      "description": "Deep learning-based sign language translation system using computer vision.",
       "tags": ["CV", "DL", "NLP"]
     },
     {
@@ -180,31 +162,31 @@
     {
       "title": "Image Deblurring for Classification Boost",
       "duration": "May 2024",
-      "description": "Deblurring preprocessing to improve classification accuracy.",
+      "description": "Deblurring preprocessing pipeline to improve classification accuracy in aerial imagery.",
       "tags": ["CV", "DL"]
     },
     {
       "title": "Database Management System",
       "duration": "Dec 2023 – Feb 2024",
-      "description": "Custom DBMS implementation with query optimization.",
+      "description": "Custom DBMS implementation with query optimization for high-performance data retrieval.",
       "tags": ["Database", "Backend"]
     },
     {
       "title": "Credit Card Approval Prediction",
       "duration": "Jan 2024",
-      "description": "Machine learning model for credit approval classification.",
+      "description": "Machine learning model for credit approval classification using ensemble methods.",
       "tags": ["ML"]
     },
     {
       "title": "Interfaced AI Training App",
       "duration": "Jan 2023",
-      "description": "Educational platform for AI training and experimentation.",
+      "description": "Educational platform for AI training and experimentation with interactive visualizations.",
       "tags": ["AI", "Education"]
     },
     {
       "title": "See-It Visualizer",
       "duration": "Apr 2022",
-      "description": "Data visualization tool for complex datasets.",
+      "description": "Data visualization tool for complex datasets with real-time rendering.",
       "tags": ["Visualization"]
     }
   ],
@@ -223,51 +205,57 @@
       "degree": "B.Sc., Artificial Intelligence & Data Engineering",
       "institution": "Istanbul Technical University",
       "duration": "2021 – Present (4th year)",
-      "note": "Top 1% high-school placement (YKS rank 2831, Turkey); English prep year completed"
+      "note": "Top 1% high-school placement (YKS rank 2831, Turkey); English prep year completed; GPA: 3.5+/4.0"
     }
   ],
   "skills": {
     "programming": [
       "Python",
-      "Pandas",
-      "Gym",
-      "OpenCV",
-      "TensorFlow",
-      "PyTorch",
-      "NumPy",
-      "scikit-learn",
       "C/C++",
-      "HTML/CSS",
+      "MATLAB",
+      "PyTorch",
+      "TensorFlow",
+      "OpenCV",
+      "NumPy",
+      "Pandas",
+      "scikit-learn",
+      "Gym",
       "SQL",
       "JavaScript",
-      "Node.js"
+      "HTML/CSS"
     ],
     "tools": [
+      "ROS/ROS2",
+      "Gazebo",
       "Git",
       "Linux",
-      "ROS/ROS2",
+      "Docker",
       "Shell",
       "LaTeX",
+      "MATLAB/Simulink",
       "Tableau",
       "Power BI",
       "MS Office"
     ],
     "social": [
       "Leadership",
-      "Teamwork",
-      "Reporting",
-      "Project Management"
+      "Team Management",
+      "Technical Writing",
+      "Public Speaking",
+      "Project Management",
+      "Cross-functional Collaboration"
     ]
   },
   "teaching": [
-    "T3 Foundation Mentor (2022–2024)",
-    "Intro to Python Instructor (2022–2023)",
-    "Intro to AI Instructor (2022–2023)",
-    "Science Travellers Organizer (2017–2019)",
-    "Earthquake Volunteer (Feb 2023)"
+    "T3 Foundation Mentor (2022–2024) - Mentoring high school students in STEM",
+    "Intro to Python Instructor (2022–2023) - Teaching Python fundamentals",
+    "Intro to AI Instructor (2022–2023) - Introduction to AI concepts and applications",
+    "Science Travellers Organizer (2017–2019) - Organizing STEM outreach events",
+    "Earthquake Volunteer (Feb 2023) - Emergency response and relief efforts"
   ],
   "certificates": [
-    "SUAS 2023–2024 Participant",
+    "SUAS 2023–2024 World Champion & Runner-up",
+    "TEKNOFEST Best in Design 2024",
     "Machine Learning Summer Camp (Miuul, 2022)",
     "Image Processing with Python (Udemy, 2022)",
     "UAV Pilot Certificate (SHGM, 2022)",
@@ -282,12 +270,11 @@
     },
     {
       "language": "English",
-      "level": "B2+ Professional"
+      "level": "Professional Working Proficiency"
     },
     {
       "language": "Arabic",
-      "level": "Basic"
+      "level": "Elementary"
     }
   ]
 }
-
