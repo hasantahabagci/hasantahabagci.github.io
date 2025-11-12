@@ -378,7 +378,7 @@ a:focus-visible {
   line-height: var(--line-height-loose);
   color: var(--text);
   margin-bottom: calc(var(--spacing-unit) * 5);
-  max-width: 900px;
+  /* max-width: 900px; */
 }
 
 .subsection-title {
