@@ -230,7 +230,6 @@
     "programming": [
       "Python",
       "C/C++",
-      "MATLAB",
       "PyTorch",
       "TensorFlow",
       "OpenCV",
@@ -245,15 +244,19 @@
     "tools": [
       "ROS/ROS2",
       "Gazebo",
+      "Isaac Sim",
       "Git",
       "Linux",
       "Docker",
       "Shell",
       "LaTeX",
-      "MATLAB/Simulink",
       "Tableau",
       "Power BI",
-      "MS Office"
+      "MS Office",
+      "Adobe Photo/Video Tools",
+      "Elasticsearch",
+      "Kibana",
+      "Airflow"
     ],
     "social": [
       "Leadership",
