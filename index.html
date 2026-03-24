@@ -1,317 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hasan Taha Bagci - AI & Robotics Researcher specializing in Reinforcement Learning, UAVs, and Computer Vision at Istanbul Technical University.">
-    <meta name="keywords" content="Hasan Taha Bagci, Reinforcement Learning, UAV, Computer Vision, Robotics, AI Research">
-    <meta name="author" content="Hasan Taha Bagci">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Hasan Taha Bagci - AI & Robotics Researcher">
-    <meta property="og:description" content="RL, UAVs & vision—building reliable autonomy.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://hasantahabagci.github.io/">
-    <meta property="og:image" content="https://hasantahabagci.github.io/assets/social-preview.png">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Hasan Taha Bagci - AI & Robotics Researcher">
-    <meta name="twitter:description" content="RL, UAVs & vision—building reliable autonomy.">
-    
-    <!-- Canonical -->
-    <link rel="canonical" href="https://hasantahabagci.github.io/">
-    
-    <!-- PWA -->
-    <link rel="manifest" href="./site.webmanifest">
-    <meta name="theme-color" content="#2563eb">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="./assets/favicon.png">
-    
-    <title>Hasan Taha Bagci - AI & Robotics Researcher</title>
-    <link rel="stylesheet" href="./styles.css">
-    
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Hasan Taha Bagci",
-      "jobTitle": "AI & Robotics Researcher",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Istanbul Technical University"
-      },
-      "alumniOf": {
-        "@type": "Organization",
-        "name": "Istanbul Technical University"
-      },
-      "url": "https://hasantahabagci.github.io/",
-      "sameAs": [
-        "https://github.com/hasantahabagci",
-        "https://linkedin.com/in/hasantahabagci",
-        "https://scholar.google.com/citations?user=bHNPQtgAAAAJ"
-      ],
-      "email": "bagcih21@itu.edu.tr",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Istanbul",
-        "addressCountry": "TR"
-      },
-      "knowsAbout": [
-        "Reinforcement Learning",
-        "Computer Vision",
-        "Robotics",
-        "UAV Navigation",
-        "Artificial Intelligence"
-      ]
-    }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hasan Taha Bagci - AI & Robotics Researcher at Istanbul Technical University. Reinforcement Learning, Computer Vision, UAVs.">
+  <meta name="author" content="Hasan Taha Bagci">
+  <meta property="og:title" content="Hasan Taha Bagci">
+  <meta property="og:description" content="AI & Robotics Researcher — Reinforcement Learning, Computer Vision, UAVs">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hasantahabagci.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://hasantahabagci.github.io/">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <title>Hasan Taha Bagci</title>
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Hasan Taha Bagci",
+    "jobTitle": "AI & Robotics Researcher",
+    "affiliation": { "@type": "Organization", "name": "Istanbul Technical University" },
+    "url": "https://hasantahabagci.github.io/",
+    "sameAs": [
+      "https://github.com/hasantahabagci",
+      "https://linkedin.com/in/hasantahabagci",
+      "https://scholar.google.com/citations?user=bHNPQtgAAAAJ"
+    ],
+    "email": "bagcih21@itu.edu.tr"
+  }
+  </script>
 </head>
 <body>
-    <a href="#main" class="skip-link">Skip to main content</a>
-    
-    <header class="header">
-        <nav class="nav-container">
-            <div class="nav-brand">
-                <img class="logo" src="./assets/logo-black.png" alt="HTB Logo" aria-hidden="true" style="height:auto;width:auto;max-width:100%;max-height:2.5rem;">
-                <span class="nav-name">HTB</span>
-            </div>
-            <ul class="nav-menu" role="list">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#achievements" class="nav-link">Achievements</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#publications" class="nav-link">Publications</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main id="main">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <h1 class="hero-name">Hasan Taha Bagci</h1>
-                <p class="hero-title">AI & Robotics Researcher</p>
-                <p class="hero-tagline">RL, UAVs & vision—building reliable autonomy.</p>
-                <div class="hero-location">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                        <circle cx="12" cy="10" r="3"/>
-                    </svg>
-                    <span>Istanbul, Turkey</span>
-                </div>
-                <div class="hero-actions">
-                    <a href="mailto:bagcih21@itu.edu.tr" class="btn btn-primary">Email</a>
-                    <a href="https://github.com/hasantahabagci" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <a href="https://linkedin.com/in/hasantahabagci" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    <a href="https://scholar.google.com/citations?user=bHNPQtgAAAAJ" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Scholar</a>
-                    <!-- <button class="btn btn-secondary" onclick="window.print()">Download CV</button> -->
-                </div>
-            </div>
-        </section>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="page-content">
+      <a href="./" class="nav-brand">Hasan Taha Bagci</a>
+      <button class="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="./" class="active">about</a></li>
+        <li><a href="./publications.html">publications</a></li>
+        <li><a href="./projects.html">projects</a></li>
+        <li><a href="./cv.html">cv</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button></li>
+      </ul>
+    </div>
+  </nav>
 
-        <!-- About / Research Interests -->
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">👋</span>
-                    About
-                </h2>
-                <p class="about-text" id="about-text" style="text-align: justify;"></p>
-                
-                <h3 class="subsection-title">Research Interests</h3>
-                <div class="interests-grid">
-                    <div class="interest-card">
-                        <h3>Reinforcement Learning & Decision Making</h3>
-                        <p>Policy optimization, multi-agent systems, UAV navigation, command & control architectures</p>
-                    </div>
-                    <div class="interest-card">
-                        <h3>Computer Vision</h3>
-                        <p>Detection, tracking, aerial imagery, vision-based navigation, segmentation, deep learning</p>
-                    </div>
-                    <div class="interest-card">
-                        <h3>Robotics & UAVs</h3>
-                        <p>Control systems, autonomous surveillance, system integration, adaptive control</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <main class="page-content">
 
-        <!-- Achievements -->
-        <section id="achievements" class="section section-alt">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">🏆</span>
-                    Achievements & Awards
-                </h2>
-                <div class="badges-grid" id="achievements-list"></div>
-            </div>
-        </section>
-
-        <!-- Experience -->
-        <section id="experience" class="section">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">💼</span>
-                    Experience
-                </h2>
-                <div class="timeline" id="experience-list"></div>
-            </div>
-        </section>
-
-        <!-- Projects -->
-        <section id="projects" class="section section-alt">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">🛰️</span>
-                    Projects
-                </h2>
-                <div class="filter-chips" id="project-filters"></div>
-                <div class="projects-grid" id="projects-list"></div>
-                <p class="empty-state" id="projects-empty" hidden>No projects match these tags (yet).</p>
-            </div>
-        </section>
-
-        <!-- Education -->
-        <section id="education" class="section">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">🎓</span>
-                    Education
-                </h2>
-                <div class="education-card">
-                    <h3>B.Sc., Artificial Intelligence & Data Engineering</h3>
-                    <p class="institution">Istanbul Technical University</p>
-                    <p class="duration">2021 – Present (4th year)</p>
-                    <p class="note">Top 1% high-school placement (YKS rank 2831, Turkey); English prep year completed</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Publications -->
-        <section id="publications" class="section section-alt">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">📚</span>
-                    Publications
-                </h2>
-                <div class="publications-list" id="publications-list"></div>
-            </div>
-        </section>
-
-        <!-- Skills -->
-        <section id="skills" class="section">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">⚙️</span>
-                    Skills
-                </h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Programming</h3>
-                        <div class="skill-chips" id="programming-skills"></div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Tools & Platforms</h3>
-                        <div class="skill-chips" id="tools-skills"></div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Social & Leadership</h3>
-                        <div class="skill-chips" id="social-skills"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Teaching & Volunteering -->
-        <section id="teaching" class="section section-alt">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">🎯</span>
-                    Teaching & Volunteering
-                </h2>
-                <ul class="compact-list" id="teaching-list"></ul>
-            </div>
-        </section>
-
-        <!-- Certificates -->
-        <section id="certificates" class="section">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">📜</span>
-                    Certificates & Courses
-                </h2>
-                <ul class="compact-list" id="certificates-list"></ul>
-            </div>
-        </section>
-
-        <!-- Languages -->
-        <section id="languages" class="section section-alt">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">🌍</span>
-                    Languages
-                </h2>
-                <div class="language-chips" id="languages-list"></div>
-            </div>
-        </section>
-
-        <!-- Contact -->
-        <section id="contact" class="section">
-            <div class="container">
-                <h2 class="section-title">
-                    <span class="section-icon">📬</span>
-                    Contact
-                </h2>
-                <div class="contact-grid">
-                    <div class="contact-item">
-                        <strong>Email</strong>
-                        <div class="contact-value">
-                            <span>bagcih21@itu.edu.tr</span>
-                            <button class="btn-copy" data-copy="bagcih21@itu.edu.tr" aria-label="Copy email address">Copy email</button>
-                        </div>
-                    </div>
-                    <!-- <div class="contact-item">
-                        <strong>Phone</strong>
-                        <div class="contact-value">
-                            <span>+90 532 669 4383</span>
-                            <button class="btn-copy" data-copy="+90 532 669 4383" aria-label="Copy phone number">Copy</button>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-links">
-                <a href="https://github.com/hasantahabagci" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://linkedin.com/in/hasantahabagci" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://scholar.google.com/citations?user=bHNPQtgAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-            </div>
-            <p class="footer-note">
-                © <span id="current-year"></span> Hasan Taha Bagci. Content licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>.
-            </p>
-            <p class="footer-updated">Last updated: <time id="last-updated"></time></p>
+    <!-- Profile Section -->
+    <section class="profile-section">
+      <div class="profile-photo-wrapper">
+        <img class="profile-photo" src="./assets/profile.png" alt="Hasan Taha Bagci">
+      </div>
+      <div class="profile-info">
+        <h1 class="profile-name">Hasan Taha Bagci</h1>
+        <p class="profile-title">AI &amp; Robotics Researcher</p>
+        <p class="profile-affiliation">
+          <a href="https://www.itu.edu.tr/" target="_blank" rel="noopener">Istanbul Technical University</a><br>
+          <span style="font-size:0.88rem">Department of AI &amp; Data Engineering</span>
+        </p>
+        <div class="social-icons">
+          <a href="mailto:bagcih21@itu.edu.tr" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://scholar.google.com/citations?user=bHNPQtgAAAAJ" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://github.com/hasantahabagci" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/hasantahabagci" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
         </div>
-    </footer>
+      </div>
+    </section>
 
-    <!-- Back to Top -->
-    <button class="back-to-top" aria-label="Back to top" hidden>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <path d="M12 19V5M5 12l7-7 7 7"/>
-        </svg>
-    </button>
+    <!-- Bio -->
+    <section>
+      <p class="profile-bio">
+        I am a senior undergraduate student at <a href="https://www.itu.edu.tr/">Istanbul Technical University</a>, studying Artificial Intelligence and Data Engineering. My research focuses on <strong>reinforcement learning</strong>, <strong>computer vision</strong>, and <strong>autonomous systems</strong>, with a particular emphasis on decision-making for UAVs and robotics.
+      </p>
+      <p class="profile-bio">
+        Currently, I am a Visiting Researcher at <a href="https://www.bu.edu/robotics/" target="_blank" rel="noopener">Boston University Robotics Lab</a> under <a href="https://www.bu.edu/eng/profile/john-baillieul/" target="_blank" rel="noopener">Distinguished Prof. John Baillieul</a>, working on diffusion-based visual navigation. I also conduct research at the <a href="https://arc.itu.edu.tr/" target="_blank" rel="noopener">ITU Aerospace Research Center</a> under <a href="https://arc.itu.edu.tr/aignca-research-group/" target="_blank" rel="noopener">Assoc. Prof. Emre Koyuncu</a> on VLM-based scene understanding and drone interception systems.
+      </p>
+      <p class="profile-bio">
+        Previously, I contributed to the <a href="https://www.mcgovern.mit.edu/" target="_blank" rel="noopener">MIT McGovern Institute</a> (Senseable Intelligence Group) developing multimodal LLM-driven avatars. I led the ITUNOM UAV Team to a <strong>World 1st Place</strong> at the Robonation SUAS Competition (2023) and 2nd Place (2024).
+      </p>
+      <div class="research-interests">
+        <span class="research-tag">Reinforcement Learning</span>
+        <span class="research-tag">Autonomous Decision-Making</span>
+        <span class="research-tag">AI Safety</span>
+        <span class="research-tag">Computer Vision</span>
+        <span class="research-tag">Vision-Language Models</span>
+        <span class="research-tag">UAV Autonomy</span>
+        <span class="research-tag">Multi-Agent Coordination</span>
+        <span class="research-tag">World Models</span>
+        <span class="research-tag">Sim-to-Real</span>
+      </div>
+    </section>
 
-    <!-- Toast for copy actions -->
-    <div class="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+    <!-- News -->
+    <div class="section-header">
+      <h2>news</h2>
+    </div>
+    <section>
+      <ul class="news-list">
+        <li class="news-item">
+          <span class="news-date">Feb 2026</span>
+          <span class="news-content">Started a new project on <strong>VLM-based Scene Understanding</strong> for UAVs at ITU Aerospace Research Center.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">Jan 2025</span>
+          <span class="news-content">Received <strong>Best of Session Award</strong> at ICNS 2025 in Brussels for our paper on GNSS-denied navigation.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">Aug 2025</span>
+          <span class="news-content">Joined <a href="https://www.bu.edu/robotics/" target="_blank" rel="noopener">Boston University Robotics Lab</a> as a Visiting Researcher working with Prof. John Baillieul.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">May 2025</span>
+          <span class="news-content">Started contributing to <a href="https://www.mcgovern.mit.edu/" target="_blank" rel="noopener">MIT McGovern Institute</a> on multimodal avatar systems.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">Jun 2024</span>
+          <span class="news-content">Led the team to <strong>World 2nd Place</strong> at Robonation SUAS 2024 in Maryland, USA.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">Jun 2023</span>
+          <span class="news-content">Won <strong>World 1st Place</strong> at Robonation SUAS 2023 in Maryland, USA.</span>
+        </li>
+      </ul>
+    </section>
 
-    <script src="./script.js"></script>
+    <!-- Selected Publications -->
+    <div class="section-header">
+      <h2>selected publications</h2>
+    </div>
+    <section class="selected-pubs">
+      <div class="pub-item">
+        <div class="pub-thumb">
+          <div class="pub-thumb-placeholder">ICNS 2025</div>
+        </div>
+        <div class="pub-details">
+          <div class="pub-title">Particle Filter-Based Localization Using Visual Feature Synchronization in GNSS-Denied Navigation</div>
+          <div class="pub-authors"><span>A. Sanlan</span>, <span class="highlight">H. T. Bagci</span>, <span>E. Koyuncu</span></div>
+          <div class="pub-venue">2025 Integrated Communications, Navigation and Surveillance Conference (ICNS), pp. 1-8</div>
+          <div class="pub-links">
+            <a href="https://doi.org/10.1109/ICNS65417.2025.10976891" class="pub-link" target="_blank" rel="noopener">DOI</a>
+            <a href="https://ieeexplore.ieee.org/document/10976891" class="pub-link" target="_blank" rel="noopener">IEEE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="page-content">
+      <div class="footer-icons">
+        <a href="mailto:bagcih21@itu.edu.tr" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://scholar.google.com/citations?user=bHNPQtgAAAAJ" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="https://github.com/hasantahabagci" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/hasantahabagci" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+
+      </div>
+      <p>&copy; <span id="year"></span> Hasan Taha Bagci. Powered by <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener">al-folio</a> style.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
-

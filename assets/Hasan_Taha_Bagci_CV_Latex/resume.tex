@@ -1,0 +1,115 @@
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{russell}
+
+% Configure page margins with geometry
+\geometry{left=1.38cm, top=.8cm, right=1.38cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
+%                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
+\colorlet{russell}{russell-black}
+% Uncomment if you would like to specify your own color
+% \definecolor{russell}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with russell color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\usepackage{biblatex}
+\usepackage{contour}
+\usepackage{ulem}
+
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,noedge,left]{./profile}
+\name{Hasan Taha}{Bagci}
+% \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
+\address{Istanbul/Turkey}
+%\dateofbirth{January 1st, 1970}
+\homepage{hasantahabagci.com} 
+\github{github.com/hasantahabagci}
+\linkedin{linkedin.com/in/hasantahabagci}
+\mobile{+905326694383}
+\email{bagcih21@itu.edu.tr}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+\googlescholar{bHNPQtgAAAAJ}{Bagci HT}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+% \quote{``Simplicity is deceptively complicated."}
+
+\addbibresource{cv/references.bib}
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {}
+  {}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+%\input{cv/summary.tex}
+
+\input{cv/research_interests.tex}
+\input{cv/achievements.tex}
+\input{cv/education.tex}
+\input{cv/publications.tex}
+\input{cv/res_experience}
+\newpage
+\input{cv/ind_experience}
+
+\input{cv/projects.tex}
+
+\input{cv/skills.tex}
+\input{cv/teaching.tex}
+% \input{cv/interests.tex}
+
+\input{cv/cerficates.tex}
+\input{cv/conferences.tex}
+\input{cv/languages.tex}
+\input{cv/references_.tex}
+
+\vspace*{\fill}
+%-------------------------------------------------------------------------------
+\end{document}
