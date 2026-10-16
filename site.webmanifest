@@ -1,0 +1,17 @@
+{
+  "name": "Hasan Taha Bagci",
+  "short_name": "HTB",
+  "description": "Robot learning and safe autonomy",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1772d0",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+

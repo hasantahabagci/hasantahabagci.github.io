@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hasan Taha Bagci</title>
+  <meta name="author" content="Hasan Taha Bagci">
+  <meta name="description" content="Hasan Taha Bagci — robot learning and safe autonomy. Istanbul Technical University, Boston University Robotics Lab.">
+  <meta property="og:title" content="Hasan Taha Bagci">
+  <meta property="og:description" content="Robot learning, constrained world-model planning, and visual navigation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hasantahabagci.github.io/">
+  <meta property="og:image" content="https://hasantahabagci.github.io/images/profile.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://hasantahabagci.github.io/">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <!-- hasantahabagci.com shows this site inside a frame. Most linked sites
+       (arXiv, GitHub, Scholar, LinkedIn) refuse to load in a frame,
+       so links open in the top window instead. -->
+  <base target="_top">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Hasan Taha Bagci",
+    "affiliation": [
+      { "@type": "Organization", "name": "Istanbul Technical University" },
+      { "@type": "Organization", "name": "Boston University" }
+    ],
+    "url": "https://hasantahabagci.github.io/",
+    "email": "bagcih21@itu.edu.tr",
+    "sameAs": [
+      "https://github.com/hasantahabagci",
+      "https://linkedin.com/in/hasantahabagci",
+      "https://scholar.google.com/citations?user=bHNPQtgAAAAJ"
+    ]
+  }
+  </script>
+</head>
+<body>
+<main class="page">
+
+  <!-- ===== Intro ===== -->
+  <header class="intro">
+    <div class="intro-text">
+      <h1 class="name">Hasan Taha Bagci</h1>
+      <p>
+        I'm a final-year undergraduate in Artificial Intelligence and Data Engineering at
+        <a href="https://www.itu.edu.tr/">Istanbul Technical University</a>.
+        I'm currently a visiting researcher at the <a href="https://www.bu.edu/robotics/">Boston University Robotics Lab</a>
+        with <a href="https://www.bu.edu/eng/profile/john-baillieul/">Prof. John Baillieul</a>,
+        and I work with <a href="https://arc.itu.edu.tr/aignca-research-group/">Assoc. Prof. Emre Koyuncu</a>
+        at the <a href="https://arc.itu.edu.tr/">ITU Aerospace Research Center</a>.
+      </p>
+      <p>
+        Before that, I was a research intern at the <a href="https://mcgovern.mit.edu/">MIT McGovern Institute</a>
+        and led the ITUNOM UAV team, which placed 1st (2023) and 2nd (2024) at RoboNation SUAS.
+      </p>
+      <p class="contact">
+        <a href="mailto:bagcih21@itu.edu.tr">Email</a><span class="sep">/</span><a href="assets/Hasan_Taha_Bagci_CV.pdf">CV</a><span class="sep">/</span><a href="https://scholar.google.com/citations?user=bHNPQtgAAAAJ">Scholar</a><span class="sep">/</span><a href="https://github.com/hasantahabagci">GitHub</a><span class="sep">/</span><a href="https://linkedin.com/in/hasantahabagci">LinkedIn</a>
+      </p>
+    </div>
+    <div class="intro-photo">
+      <a href="images/profile.jpg"><img src="images/profile.jpg" alt="Photo of Hasan Taha Bagci" width="600" height="600"></a>
+    </div>
+  </header>
+
+  <!-- ===== News ===== -->
+  <section class="section" id="news">
+    <h2>News</h2>
+    <ul class="news">
+      <li><time datetime="2026-08">Aug 2026</time><span><a href="#concord" target="_self">CONCORD</a> accepted to AIAA SciTech 2027.</span></li>
+      <li><time datetime="2026-08">Aug 2026</time><span><a href="https://arxiv.org/abs/2608.02079">TANGO-VIO</a> is out on arXiv.</span></li>
+      <li><time datetime="2025-08">Aug 2025</time><span>Joined the <a href="https://www.bu.edu/robotics/">BU Robotics Lab</a> as a visiting researcher.</span></li>
+      <li><time datetime="2025-05">May 2025</time><span>Joined the Senseable Intelligence Group at <a href="https://mcgovern.mit.edu/">MIT McGovern</a> as a research intern.</span></li>
+      <li><time datetime="2025-04">Apr 2025</time><span>Best of Session Award at <a href="#icns" target="_self">ICNS 2025</a> in Brussels.</span></li>
+      <li><time datetime="2024-06">Jun 2024</time><span>ITUNOM placed 2nd at RoboNation SUAS 2024, after winning it in 2023.</span></li>
+    </ul>
+  </section>
+
+  <!-- ===== Research ===== -->
+  <section class="section" id="research">
+    <h2>Research</h2>
+    <p>
+      I work on physical AI and robot learning, with a focus on safety: how robots can plan and act
+      from what they see while respecting hard physical limits. My work spans constrained world-model
+      planning, visual navigation, and state estimation for aerial robots.
+      Representative papers are <span class="hl">highlighted</span>.
+    </p>
+  </section>
+
+  <div class="entries" id="publications">
+
+    <article class="entry highlight" id="cap">
+      <div class="thumb">
+        <img src="images/cap.jpg" alt="Robot arm meshing a gear in simulation under a 5 N force cap" loading="lazy">
+        <video class="hover" src="images/cap.mp4" poster="images/cap.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+      </div>
+      <div class="entry-text">
+        <span class="papertitle">Safe Planning for Contact-Rich Robotic Manipulation</span><br>
+        <strong>H. T. Bagci</strong>, J. Bi, F. E. Yalcindag, X. Zhou, E. Koyuncu, Z. Cao<br>
+        <span class="venue"><em>Under review at ICLR</em>, 2027</span>
+        <p>
+          A layer that projects each planned action onto the set the robot's controller can execute
+          within a force limit, in closed form and with no online optimization. On peg insertion,
+          gear meshing, and nut threading it keeps contact forces under the cap at every step,
+          with 98.1% safe success on peg insertion at 5&nbsp;N.
+        </p>
+      </div>
+    </article>
+
+    <article class="entry" id="concord">
+      <div class="thumb">
+        <img src="images/concord.jpg" alt="Tactical air scenario map from the CONCORD simulator" loading="lazy">
+      </div>
+      <div class="entry-text">
+        <span class="papertitle">CONCORD: Constraint-Aware Decision Support Framework for Tactical Air COA Generation and Ranking</span><br>
+        <strong>H. T. Bagci</strong>, E. Koyuncu, N. K. Ure<br>
+        <span class="venue"><em>AIAA SciTech Forum</em>, 2027 (to appear)</span>
+        <p>
+          Generates candidate air-mission plans, scores them under stochastic threats with Monte Carlo
+          simulation, and ranks them against explicit hard and soft constraints, with a readable
+          rationale for each choice.
+        </p>
+      </div>
+    </article>
+
+    <article class="entry highlight" id="tango-vio">
+      <div class="thumb">
+        <img src="images/tango.jpg" alt="Quadrotor used in the TANGO-VIO flight experiments" loading="lazy">
+        <img class="hover" src="images/tango_hover.jpg" alt="" loading="lazy">
+      </div>
+      <div class="entry-text">
+        <a href="https://arxiv.org/abs/2608.02079"><span class="papertitle">TANGO-VIO: Triangulation-Aware Navigation with Guaranteed Feature-Observability for Visual-Inertial Odometry</span></a><br>
+        A. Şanlan, E. C. Altunkaya, <strong>H. T. Bagci</strong>, E. Koyuncu, İ. Özkol<br>
+        <span class="venue"><em>arXiv</em>, 2026 (under review at IEEE T-RO)</span><br>
+        <span class="links"><a href="https://arxiv.org/abs/2608.02079">arXiv</a><span class="sep">/</span><a href="https://arxiv.org/pdf/2608.02079">PDF</a></span>
+        <p>
+          A control barrier function on a log-determinant triangulation metric nudges the drone's
+          velocity just enough to keep visual features observable, so VIO stays well-conditioned
+          under low-parallax motion. Validated in simulation and real flights.
+        </p>
+      </div>
+    </article>
+
+    <article class="entry" id="icns">
+      <div class="thumb">
+        <img src="images/icns.jpg" alt="Flight path over satellite imagery of the ITU campus" loading="lazy">
+        <img class="hover" src="images/icns_hover.jpg" alt="" loading="lazy">
+      </div>
+      <div class="entry-text">
+        <a href="https://ieeexplore.ieee.org/document/10976891"><span class="papertitle">Particle Filter-Based Localization Using Visual Feature Synchronization in GNSS-Denied Navigation</span></a><br>
+        A. Şanlan, <strong>H. T. Bagci</strong>, E. Koyuncu<br>
+        <span class="venue"><em>ICNS</em>, 2025</span> &nbsp;<span class="award">Best of Session Award</span><br>
+        <span class="links"><a href="https://ieeexplore.ieee.org/document/10976891">IEEE</a><span class="sep">/</span><a href="https://doi.org/10.1109/ICNS65417.2025.10976891">DOI</a></span>
+        <p>
+          A CycleGAN maps winter drone imagery into the summer look of satellite maps, and a marginalized
+          particle filter fuses the resulting feature matches with inertial navigation to localize a UAV
+          without GNSS. Tested in real flights.
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- ===== Projects ===== -->
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+  </section>
+
+  <div class="entries">
+
+    <article class="entry">
+      <div class="thumb">
+        <img src="images/nav.jpg" alt="Jackal robot driving down a warehouse corridor in simulation" loading="lazy">
+        <video class="hover" src="images/nav.mp4" poster="images/nav.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+      </div>
+      <div class="entry-text">
+        <span class="papertitle">Visual Navigation from Time-to-Transit</span><br>
+        <span class="venue"><em>Boston University Robotics Lab</em>, 2025–present</span>
+        <p>
+          Estimating depth from time-to-transit cues in monocular optical flow, then learning a
+          diffusion navigation policy on top of it from expert demonstrations, with closed-form
+          action constraints for safety. Shown: a Jackal running the policy in Isaac Sim.
+        </p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <div class="thumb">
+        <img src="images/riverst.jpg" alt="Riverst 3D avatar waving" loading="lazy">
+      </div>
+      <div class="entry-text">
+        <a href="https://github.com/sensein/riverst"><span class="papertitle">Riverst: Real-Time Avatar Conversations</span></a><br>
+        <span class="venue"><em>MIT McGovern Institute</em>, 2025</span><br>
+        <span class="links"><a href="https://github.com/sensein/riverst">code</a></span>
+        <p>
+          An open-source platform for real-time spoken conversations with 3D avatars. I worked on
+          speech-driven interactions, gestures, and lip synchronization.
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+  <section class="section">
+    <p>
+      Earlier, I built small-UAV detection and tracking for the drone interceptor project at the ITU
+      Aerospace Research Center, and worked on perception and localization software for the ITUNOM
+      team's competition UAVs.
+    </p>
+  </section>
+
+  <!-- ===== Miscellanea ===== -->
+  <section class="section">
+    <h2>Miscellanea</h2>
+  </section>
+
+  <div class="misc">
+    <div class="misc-row">
+      <div class="misc-label"><div class="colored-box" style="background-color: var(--box-awards);"><h2>Awards</h2></div></div>
+      <div class="misc-body">
+        <ul>
+          <li>Best of Session Award, ICNS <span class="when">2025</span></li>
+          <li>2nd Place (team), RoboNation SUAS <span class="when">2024</span></li>
+          <li>1st Place (team), RoboNation SUAS <span class="when">2023</span></li>
+          <li>Ranked 2,831st of ~2.5M (top 0.1%), Turkish University Entrance Exam <span class="when">2021</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="misc-row">
+      <div class="misc-label"><div class="colored-box" style="background-color: var(--box-experience);"><h2>Industry</h2></div></div>
+      <div class="misc-body">
+        <ul>
+          <li>Intern, AI &amp; Software Development, Baykar Defence Technologies <span class="when">2024</span></li>
+          <li>Intern, Computer Vision, TÜBİTAK <span class="when">2022</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="misc-row">
+      <div class="misc-label"><div class="colored-box" style="background-color: var(--box-service);"><h2>Service &amp; Affiliations</h2></div></div>
+      <div class="misc-body">
+        <ul>
+          <li>Reviewer, ICRA 2027</li>
+          <li>Sponsored Guest, Massachusetts Institute of Technology</li>
+          <li>Member, NSF AI Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="misc-row">
+      <div class="misc-label"><div class="colored-box" style="background-color: var(--box-teaching);"><h2>Leadership &amp; Outreach</h2></div></div>
+      <div class="misc-body">
+        <ul>
+          <li>Team Leader, ITUNOM UAV Team (24 members) <span class="when">2022–2024</span></li>
+          <li>STEM Educator and Mentor, T3 Foundation <span class="when">2022–2024</span></li>
+          <li>Python and AI Instructor for high-school students <span class="when">2022–2023</span></li>
+          <li>Education volunteer, Kahramanmaraş earthquake relief <span class="when">2023</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    Design adapted from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>.
+    The source of this site is on <a href="https://github.com/hasantahabagci/hasantahabagci.github.io">GitHub</a>.
+  </footer>
+
+</main>
+<script src="script.js"></script>
+<script data-goatcounter="https://hasantahabagci.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
